@@ -9,8 +9,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Node.js
-MongoDB
+* [Node.js](https://www.nodejs.org/)
+* [MongoDB](https://www.mongodb.com)
 
 ## Deployment
 
@@ -27,4 +27,4 @@ MongoDB
 ## Acknowledgments
 
 * Inspiration
-* Thanks to [MOSCORD] company for giving me the opportunity to showcase my skills
+* Thanks to [MOSCORD](https://www.moscord.com/) company for giving me the opportunity to showcase my skills
