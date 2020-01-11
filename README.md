@@ -7,12 +7,19 @@ A RESTful web application perfectly use as a starter for E-commerce web applicat
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+Clone or Download as Zip then run **npm install**
+
+# Fetching Sellers #
+**Use postman**
+
+
 ### Prerequisites
 
 * [Node.js](https://www.nodejs.org/)
 * [MongoDB](https://www.mongodb.com)
 
-## Deployment
+## Testing
+* [Postman](https://www.getpostman.com/)
 
 ## Built With
 
