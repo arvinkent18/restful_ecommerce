@@ -35,6 +35,11 @@ const sellerRoutes = require('./api/routes/sellers');
  * @const
  */
 const productRoutes = require('./api/routes/products');
+/**
+ * carts routes
+ * @const
+ */
+const cartRoutes = require('./api/routes/carts');
 
 /**
  * sellers routes
@@ -76,6 +81,7 @@ app.use((req, res, next) => {
  */
 app.use('/sellers', sellerRoutes);
 app.use('/products', productRoutes);
+app.use('/carts', cartRoutes);
 
 /**
  * error handler for 404
