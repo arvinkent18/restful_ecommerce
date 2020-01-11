@@ -23,23 +23,28 @@ Type in the address bar **http://localhost:5000/sellers/create**
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
 ## Fetching Seller's Information ##
-Type in the address bar **http://localhost:5000/sellers/sellerId** - **"sellerId"** is the ID of the seller
+Type in the address bar **http://localhost:5000/sellers/sellerId**
+**"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198361-2d080e80-3467-11ea-97e7-0308ef45cbee.PNG)
 
 ## Updating Seller's Information ##
-Type in the address bar **http://localhost:5000/sellers/sellerId/update** **"sellerId"** is the ID of the seller
+Type in the address bar **http://localhost:5000/sellers/sellerId/update** 
+**"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198421-04344900-3468-11ea-8ccd-2bd188588f51.PNG)
 
 ## Deleting Seller ##
-Type in the address bar **http://localhost:5000/sellers/delete/sellerId** - **"sellerId"** is the ID of the seller
+Type in the address bar **http://localhost:5000/sellers/delete/sellerId**
+**"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
 ## Create Seller's Product ##
-Type in the address bar **http://localhost:5000/sellers/sellerId/product/create** - **"sellerId"** is the ID of the seller
+Type in the address bar **http://localhost:5000/sellers/sellerId/product/create**
+**"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198634-76f2f380-346b-11ea-9555-37697d9fd733.PNG)
 
 ## Fetching Seller's Products ##
-Type in the address bar **http://localhost:5000/sellers/sellerId/products** - **"sellerId"** is the ID of the seller
+Type in the address bar **http://localhost:5000/sellers/sellerId/products**
+**"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198666-eff24b00-346b-11ea-83c8-cc207e3d6abb.PNG)
 
 ## Updating Seller's Products ##
