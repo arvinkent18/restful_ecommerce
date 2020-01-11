@@ -47,6 +47,31 @@ Type in the address bar **http://localhost:5000/sellers/sellerId/product/product
 **"sellerId"** is the ID of the seller and **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198786-752a2f80-346d-11ea-8d96-afe78ed60349.PNG)
 
+## Deleting Seller's Products ##
+Type in the address bar **http://localhost:5000/sellers/sellerId/product/delete/productId**
+**"sellerId"** is the ID of the seller and **productId** is the ID of the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206250-62901480-34c6-11ea-9ead-35e45653bf5c.PNG)
+
+## Fetching Products ##
+Type in the address bar **http://localhost:5000/products**
+**"sellerId"** is the ID of the seller and **productId** is the ID of the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206254-70459a00-34c6-11ea-9b67-da7848f47159.PNG)
+
+## Fetching Product's Details ##
+Type in the address bar **http://localhost:5000/products/productId**
+**productId** is the ID of the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206252-6754c880-34c6-11ea-8e53-cdfbd7abc556.PNG)
+
+## Searching Product by Name or Description ##
+Type in the address bar **http://localhost:5000/products/search/nameOrdescription**
+**nameOrDdescription** is the title or the description found in the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206327-23ae8e80-34c7-11ea-9ad4-1a27d7ffb686.PNG)
+
+## Generating Report per Product -- it shows how many times it was added in the carts
+Type in the address bar **http://localhost:5000/products/productId/report**
+**productId** is the ID of the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206359-8b64d980-34c7-11ea-9e55-354480eb9091.PNG)
+
 ### Prerequisites
 
 * [Node.js](https://www.nodejs.org/)
