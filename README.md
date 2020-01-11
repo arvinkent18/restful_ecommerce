@@ -53,7 +53,7 @@ Type in the address bar **http://localhost:5000/sellers/sellerId/product/product
 * [MongoDB](https://www.mongodb.com)
 
 ## Testing
-* [Postman](https://www.getpostman.com/)
+* [Postman](https://www.getpostman.com/) - The application used for testing RESTFul APIs
 
 ## Built With
 
