@@ -20,7 +20,7 @@ Type in the address bar **http://localhost:5000/sellers/create**
 
 ## Fetching Seller's Information ##
 Type in the address bar **http://localhost:5000/sellers/sellerId** - "ellerId" is the ID of the seller
-![Alt text(https://user-images.githubusercontent.com/32665778/72198361-2d080e80-3467-11ea-97e7-0308ef45cbee.PNG)
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72198361-2d080e80-3467-11ea-97e7-0308ef45cbee.PNG)
 
 ## Updating Seller's Information ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/update** "sellerId" is the ID of the seller
