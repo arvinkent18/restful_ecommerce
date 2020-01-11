@@ -24,62 +24,62 @@ Type in the address bar **http://localhost:5000/sellers/create**
 
 ## Fetching Seller's Information ##
 Type in the address bar **http://localhost:5000/sellers/sellerId**
-**"sellerId"** is the ID of the seller
+  **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198361-2d080e80-3467-11ea-97e7-0308ef45cbee.PNG)
 
 ## Updating Seller's Information ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/update** 
-**"sellerId"** is the ID of the seller
+  **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198421-04344900-3468-11ea-8ccd-2bd188588f51.PNG)
 
 ## Deleting Seller ##
 Type in the address bar **http://localhost:5000/sellers/delete/sellerId**
-**"sellerId"** is the ID of the seller
+  **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
 ## Create Seller's Product ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/product/create**
-**"sellerId"** is the ID of the seller
+  **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198634-76f2f380-346b-11ea-9555-37697d9fd733.PNG)
 
 ## Fetching Seller's Products ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/products**
-**"sellerId"** is the ID of the seller
+  **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198666-eff24b00-346b-11ea-83c8-cc207e3d6abb.PNG)
 
 ## Updating Seller's Products ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/product/productId**
-**"sellerId"** is the ID of the seller and **productId** is the ID of the product
+  **"sellerId"** is the ID of the seller and **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198786-752a2f80-346d-11ea-8d96-afe78ed60349.PNG)
 
 ## Deleting Seller's Products ##
 Type in the address bar **http://localhost:5000/sellers/sellerId/product/delete/productId**
-**"sellerId"** is the ID of the seller and **productId** is the ID of the product
+  **"sellerId"** is the ID of the seller and **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206250-62901480-34c6-11ea-9ead-35e45653bf5c.PNG)
 
 ## Fetching Products ##
 Type in the address bar **http://localhost:5000/products**
-**"sellerId"** is the ID of the seller and **productId** is the ID of the product
+  **"sellerId"** is the ID of the seller and **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206254-70459a00-34c6-11ea-9b67-da7848f47159.PNG)
 
 ## Fetching Product's Details ##
 Type in the address bar **http://localhost:5000/products/productId**
-**productId** is the ID of the product
+  **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206252-6754c880-34c6-11ea-8e53-cdfbd7abc556.PNG)
 
 ## Searching Product by Name or Description ##
 Type in the address bar **http://localhost:5000/products/search/nameOrdescription**
-**nameOrDdescription** is the title or the description found in the product
+  **nameOrDdescription** is the title or the description found in the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206327-23ae8e80-34c7-11ea-9ad4-1a27d7ffb686.PNG)
 
 ## Fetching Products in Cart ##
 Type in the address bar **http://localhost:5000/products/productId/report**
-**productId** is the ID of the product
+  **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206253-6d4aa980-34c6-11ea-999e-cf88c6526514.PNG)
 
-## Generating Report per Product ## -- it shows how many times it was added in the carts
+## Generating Report per Product ## it shows how many times it was added in the carts
 Type in the address bar **http://localhost:5000/products/productId/report**
-**productId** is the ID of the product
+  **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206359-8b64d980-34c7-11ea-9e55-354480eb9091.PNG)
 
 ### Prerequisites
