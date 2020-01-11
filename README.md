@@ -7,7 +7,12 @@ A RESTful web application perfectly use as a starter for E-commerce web applicat
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Clone or Download as Zip then run **npm install**
+Clone or Download as Zip then run **npm install** to install dependencies
+To start application please run **npm run start**
+
+**Note**
+Create a **nodemon.json** file for the environment variable "MONGO_URI". Put your database connection string there.
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72198606-021fb980-346b-11ea-89b7-f5bfa8013c36.PNG)
 
 ## Fetching Sellers ##
 **Use Postman**
@@ -30,7 +35,11 @@ Type in the address bar **http://localhost:5000/sellers/sellerId/update** **"sel
 Type in the address bar **http://localhost:5000/sellers/delete/sellerId** - **"sellerId"** is the ID of the seller
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
-### Prerequisites s
+## Create Seller's Product ##
+Type in the address bar **http://localhost:5000/sellers/sellerId/product/create* - **"sellerId"** is the ID of the seller
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72198634-76f2f380-346b-11ea-9555-37697d9fd733.PNG)
+
+### Prerequisites
 
 * [Node.js](https://www.nodejs.org/)
 * [MongoDB](https://www.mongodb.com)
