@@ -9,9 +9,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 Clone or Download as Zip then run **npm install**
 
-# Fetching Sellers #
-**Use postman**
+## Fetching Sellers ##
+**Use Postman**
+Type in the address bar **http://localhost:5000/sellers**
 ![Alt text](https://user-images.githubusercontent.com/32665778/72198290-65f3b380-3466-11ea-8726-9c993d4d828d.PNG)
+
+## Creating Seller ##
+Type in the address bar **http://localhost:5000/sellers/create**
+![Alt text](https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
+
+## Fetching Seller's Information ##
+Type in the address bar **http://localhost:5000/sellers/sellerId** - **sellerId** is the ID of the seller
+![Alt text(https://user-images.githubusercontent.com/32665778/72198361-2d080e80-3467-11ea-97e7-0308ef45cbee.PNG)
+
+## Updating Seller's Information ##
+Type in the address bar **http://localhost:5000/sellers/sellerId/update** - **sellerId** is the ID of the seller
+![Alt text(https://user-images.githubusercontent.com/32665778/72198421-04344900-3468-11ea-8ccd-2bd188588f51.PNG)
+
+## Deleting Seller ##
+Type in the address bar **http://localhost:5000/sellers/delete/sellerId** - **sellerId** is the ID of the seller
+![Alt text(https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
 ### Prerequisites
 
