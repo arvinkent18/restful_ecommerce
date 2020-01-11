@@ -30,7 +30,7 @@ Type in the address bar **http://localhost:5000/sellers/sellerId/update** - **se
 Type in the address bar **http://localhost:5000/sellers/delete/sellerId** - **sellerId** is the ID of the seller
 ![Alt text(https://user-images.githubusercontent.com/32665778/72198455-89b7f900-3468-11ea-9847-b0a5b43e2498.PNG)
 
-### Prerequisites
+### Prerequisites s
 
 * [Node.js](https://www.nodejs.org/)
 * [MongoDB](https://www.mongodb.com)
