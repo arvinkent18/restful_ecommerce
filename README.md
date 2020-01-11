@@ -67,7 +67,12 @@ Type in the address bar **http://localhost:5000/products/search/nameOrdescriptio
 **nameOrDdescription** is the title or the description found in the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206327-23ae8e80-34c7-11ea-9ad4-1a27d7ffb686.PNG)
 
-## Generating Report per Product -- it shows how many times it was added in the carts
+## Fetching Products in Cart ##
+Type in the address bar **http://localhost:5000/products/productId/report**
+**productId** is the ID of the product
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72206253-6d4aa980-34c6-11ea-999e-cf88c6526514.PNG)
+
+## Generating Report per Product ## -- it shows how many times it was added in the carts
 Type in the address bar **http://localhost:5000/products/productId/report**
 **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206359-8b64d980-34c7-11ea-9e55-354480eb9091.PNG)
