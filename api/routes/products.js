@@ -18,7 +18,7 @@ const mongoose = require('mongoose');
  * express Seller Model
  * @const
  */
-const Seller = require('../models/seller');
+const Report = require('../models/report');
 /**
  * express module
  * @const
@@ -67,6 +67,42 @@ router.get('/:productId', (req, res, next) => {
             } else {
                 res.status(404).json({message: 'No valid entry'});
             }
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+});
+
+/**
+ * Route serving rendering product report.
+ * @name get//product
+ * @function
+ * @memberof module:routers/products~productsRouter
+ * @inner
+ * @param {int} productId - Product's ID
+ */
+router.get('/:productId/report', (req, res, next) => {
+    const id = req.params.productId;
+    Report.find({product: id})
+        .exec()
+        .then(result => {
+            const response = {
+                count: result.length,
+                seller: result.map(result => {
+                    return {
+                        name: result.name,
+                        _id: result._id,
+                        request: {
+                            type: 'GET',
+                            url: 'http://localhost:5000/sellers/' + result._id
+                        }
+                    }
+                })
+            };
+            res.status(200).json(response); 
         })
         .catch(err => {
             console.log(err);

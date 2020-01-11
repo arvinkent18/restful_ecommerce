@@ -15,10 +15,15 @@ const router = express.Router();
  */
 const mongoose = require('mongoose');
 /**
- * express module
+ * cart module
  * @const
  */
 const Cart = require('../models/cart');
+/**
+ * report module
+ * @const
+ */
+const Report = require('../models/report');
 
 /**
  * Route serving rendering orders in cart.
@@ -61,7 +66,7 @@ router.post('/', (req, res, next) => {
         .then(result => {
             console.log(result);
             res.status(201).json({
-                message: 'Cart created',
+                message: 'Cart and Report created',
                 createdCart: {
                     _id: result._id,
                     product: result.product,
@@ -71,6 +76,12 @@ router.post('/', (req, res, next) => {
                     }
                 }
             });
+            const report = new Report({
+                _id: mongoose.Types.ObjectId(),
+                product: cart.product._id,
+                seller: result.seller._id
+            });
+            report.save();
         })
         .catch(err => {
             console.log(err);
