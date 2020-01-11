@@ -1,7 +1,7 @@
 # restful_ecommerce
 # RESTful Web Application
 
-A RESTful web application perfectly use as a starter for E-commerce web applications
+A simple RESTful web application perfectly use as a starter for E-commerce web applications
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone or Download as Zip then run **npm install** to install dependencies
 To start application please run **npm run start**
 
-Create a **nodemon.json** file for the environment variable **"MONGO_ATLAS_URI"**. Put your database connection string there.
+Create a **nodemon.json** file for the environment variable **"MONGO_ATLAS_URI"**. Put your database connection string.
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72198606-021fb980-346b-11ea-89b7-f5bfa8013c36.PNG)
 
 ## Fetching Sellers ##
