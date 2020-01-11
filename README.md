@@ -11,7 +11,7 @@ Clone or Download as Zip then run **npm install**
 
 # Fetching Sellers #
 **Use postman**
-
+![Alt text](https://user-images.githubusercontent.com/32665778/72198290-65f3b380-3466-11ea-8726-9c993d4d828d.PNG)
 
 ### Prerequisites
 
