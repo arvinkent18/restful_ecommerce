@@ -77,6 +77,10 @@ Type in the address bar **http://localhost:5000/products/productId/report**
   **productId** is the ID of the product
 ![ScreenShot](https://user-images.githubusercontent.com/32665778/72206253-6d4aa980-34c6-11ea-999e-cf88c6526514.PNG)
 
+## Adding Products in Cart ##
+Type in the address bar **http://localhost:5000/carts/**
+![ScreenShot](https://user-images.githubusercontent.com/32665778/72216911-4e99f080-3562-11ea-9d58-c44147b8f362.PNG)
+
 ## Generating Report per Product ## it shows how many times it was added in the carts
 Type in the address bar **http://localhost:5000/products/productId/report**
   **productId** is the ID of the product
